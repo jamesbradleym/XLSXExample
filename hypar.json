@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.hypar.io/ExporterFunction.json",
+  "id": "7f1cf4b2-a203-40b5-93db-6f923cb052fa",
+  "name": "XLSX Example",
+  "description": "The XLSXExample function.",
+  "language": "C#",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "Download Excel": {
+        "$ref": "https://schemas.hypar.io/FileDestination.json",
+        "$hyparFileExtension": "xlsx"
+      }
+    }
+  },
+  "repository_url": "https://github.com/hypar-io/function",
+  "last_updated": "0001-01-01T00:00:00",
+  "cli_version": "1.13.1-alpha.9"
+}
